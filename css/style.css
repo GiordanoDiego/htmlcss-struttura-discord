@@ -6,7 +6,7 @@
 }
 
 
-/* GENERAL RULE */
+                            /* GENERAL RULE */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -18,132 +18,157 @@
     flex-wrap: wrap;
 }
 
-/* HEADER RULE */
+                            /* HEADER RULE */
 .top-header{
-    background-color: aquamarine;
     min-height: 50px;
     justify-items: center;
     align-items: center;
 }
 
 .top-header-box{
-    background-color: orange;
     min-height: 30px;
 }
 
 .top-header-box > *{
-    border: 1px dashed red;
     width: calc(100%/3)
 }
-
+/* BOTTOM HEADER */
 .bottom-header{
-    background-color: blue;
     min-height: 300px;
     justify-content: center;
     align-items: center;
 }
 
 .bottom-header-section{
-    background-color: #EE81EE;
-    border: 1px dashed red;
-    min-height: 200px;
-    width: 700px;
+    min-height: 250px;
+    width: 60%;
 }
 
-/* MAIN RULE */
+    /* -----------MAIN RULE -------------*/
 .section-main-1, .section-main-2, .section-main-3{
-    min-height: 350px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
 }
 
 .section-main-4{
-    background-color: lightgray;
-    min-height: 500px;
+    min-height: 600px;
 }
 
-
-.section-main-2{
-background-color: lightgray;
-}
-
-.section-1-left{
-    background-color: #1D90FF;
+.section-left{
     width: 70%;
     height: 300px;
-    border: 1px dashed red;
-
 }
 
-.section-1-right{
-    background-color: #FFC1CB;
+.section-right{
     width: 30%;
     height: 300px;
-    border: 1px dashed red;
 }
 
 .section-main-4-box{
-    background-color: green;
-    border: 1px dashed red;
     justify-items: center;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-/* FOOTER RULE */
+/* ----------FOOTER RULE--------------- */
 
 .top-footer{
-    background-color: #23272A;
-    min-height: 300px;
-    border: 1px dashed red;
+    min-height: 400px;
     justify-items: center;
     align-items: center;
-
-
 }
 
 .left-top-footer{
     width: 25%;
-    background-color: #F08080;
-    min-height: 270px;
-
+    min-height: 350px;
 }
 
 .right-top-footer{
     width: 75%;
-    background-color: #21B2AA;
-    min-height: 270px;
+    min-height: 350px;
 }
 .right-top-footer > *{
     width: calc(100% / 4);
-    border: 1px dashed red;
 }
 
 /* BOTTOM FOOTER */
 .bottom-footer{
-    background-color: #23272A;
     min-height: 50px;
-    border: 1px dashed red;
     justify-items: center;
-    align-items: center;
     align-items: flex-end;
 }
 
 .bottom-footer-section{
-    background-color: #21B2AA;
     min-height: 40px;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo, .bottone{
-    background-color: pink;
     padding: 3px;
+}
+
+/* ------------------DEBUG------------------------ */
+.debug *{
     border: 1px dashed red;
+}
+
+.debug header .top-header{
+    background-color: #ADD8E6;
+}
+
+.debug header .top-header .top-header-box > *{
+    background-color: orange;
+}
+
+.debug header .bottom-header {
+    background-color: blue;
+}
+
+.debug header .bottom-header > *{
+    background-color: plum;
 
 }
-/* DEBUG */
 
+.debug main .section-main-2, .debug main .section-main-4{
+    background-color: lightgray;
+
+}
+
+.debug .section-left{
+    background-color: #1D90FF;
+}
+
+.debug .section-right{
+    background-color: #FFC1CB;
+}
+
+.debug .section-main-4-box{
+    background-color: green;
+}
+
+.debug footer > *{
+    background-color: #23272A;
+}
+
+.debug .left-top-footer{
+    background-color: #F08080;
+}
+
+.debug .right-top-footer{
+    background-color: #21B2AA;
+}
+
+
+
+.debug .bottom-footer-section{
+    background-color: #21B2AA;
+}
+
+.debug .bottom-footer-section >*{
+    background-color: pink;
+}
 
 
