@@ -13,16 +13,137 @@
     width: 100%;
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* HEADER RULE */
+.top-header{
+    background-color: aquamarine;
+    min-height: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.top-header-box{
+    background-color: orange;
+    min-height: 30px;
+}
+
+.top-header-box > *{
+    border: 1px dashed red;
+    width: calc(100%/3)
+}
+
+.bottom-header{
+    background-color: blue;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-header-section{
+    background-color: #EE81EE;
+    border: 1px dashed red;
+    min-height: 200px;
+    width: 700px;
+}
 
 /* MAIN RULE */
+.section-main-1, .section-main-2, .section-main-3{
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-main-4{
+    background-color: lightgray;
+    min-height: 500px;
+}
+
+
+.section-main-2{
+background-color: lightgray;
+}
+
+.section-1-left{
+    background-color: #1D90FF;
+    width: 70%;
+    height: 300px;
+    border: 1px dashed red;
+
+}
+
+.section-1-right{
+    background-color: #FFC1CB;
+    width: 30%;
+    height: 300px;
+    border: 1px dashed red;
+}
+
+.section-main-4-box{
+    background-color: green;
+    border: 1px dashed red;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 /* FOOTER RULE */
 
+.top-footer{
+    background-color: #23272A;
+    min-height: 300px;
+    border: 1px dashed red;
+    justify-items: center;
+    align-items: center;
 
 
-/* DEBUG */
-.debug .container {
-    background-color: beige;
+}
+
+.left-top-footer{
+    width: 25%;
+    background-color: #F08080;
+    min-height: 270px;
+
+}
+
+.right-top-footer{
+    width: 75%;
+    background-color: #21B2AA;
+    min-height: 270px;
+}
+.right-top-footer > *{
+    width: calc(100% / 4);
     border: 1px dashed red;
 }
+
+/* BOTTOM FOOTER */
+.bottom-footer{
+    background-color: #23272A;
+    min-height: 50px;
+    border: 1px dashed red;
+    justify-items: center;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.bottom-footer-section{
+    background-color: #21B2AA;
+    min-height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .bottone{
+    background-color: pink;
+    padding: 3px;
+    border: 1px dashed red;
+
+}
+/* DEBUG */
+
+
+
